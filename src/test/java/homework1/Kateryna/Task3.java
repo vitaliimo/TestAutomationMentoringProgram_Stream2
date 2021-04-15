@@ -9,5 +9,6 @@ public class Task3 {
         System.out.println(Math.multiplyExact(x,y));
         System.out.println(Math.floorDiv(x,y));
         System.out.println(Math.floorMod(x,y));
+
     }
 }
