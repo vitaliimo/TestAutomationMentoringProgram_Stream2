@@ -17,17 +17,4 @@ Task 6 - How does a program destroy an object that it creates?
 An object can be removed during garbage collection (gc) - cleaning up memory, if there are no variables left that refer to this object (no more references to this object).
 GC frees the memory when the objects are not reachable (Note: not removing objects from the codebase), objects are no longer in use by the program.
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
