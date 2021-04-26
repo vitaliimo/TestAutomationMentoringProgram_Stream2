@@ -1,0 +1,8 @@
+String[] students = new String[10];
+String studentName = "Peter Parker";
+students[0] = studentName;
+studentName = null;
+
+В обох випадках об'єкти не будуть сміттям. Масив має одне посилання на об'єкт studentName.
+Об'єкт studentName в свою чергу також не буде сміттям, оскільки на нього посилається перший елемент масиву students[0].
+
