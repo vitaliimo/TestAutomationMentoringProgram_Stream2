@@ -6,8 +6,9 @@ public class Task4 {
     public static void main(String[] args) {
         NumberHolder number = new NumberHolder(100, 100.5f);
 
-        System.out.println("Integer value: " + number.anInt);
-        System.out.println("Float value: " + number.aFloat);
+        System.out.println(number.toString());
+        //System.out.println("Integer value: " + number.anInt);
+        //System.out.println("Float value: " + number.aFloat);
     }
 
     public static class NumberHolder {
@@ -18,7 +19,11 @@ public class Task4 {
             this.anInt = anInt;
             this.aFloat = aFloat;
         }
+
+        @Override
+        public String toString() {
+            return "Integer value: " + anInt +
+                    ", Float value: " + aFloat;
+        }
     }
 }
-
-
