@@ -1,22 +1,20 @@
-package Kateryna;
+package homework2.Kateryna;
 
 public class Task4 {
     public static void main(String[] args) {
-
         NumberHolder BlueHouse = new NumberHolder(5, 2.75f);
+        System.out.println(BlueHouse);
     }
-
     public static class NumberHolder {
-        public int aInt;
-        public float aFloat;
-
+        private int aInt;
+        private float aFloat;
         public NumberHolder(int aInt, float aFloat) {
-            super();
             this.aInt = aInt;
             this.aFloat = aFloat;
-
-            System.out.println(this.aInt);
-            System.out.println(this.aFloat);
+        }
+        @Override
+        public String toString() {
+            return "The house has " + aInt + " rooms and " + aFloat + "-meter high walls";
         }
     }
 }

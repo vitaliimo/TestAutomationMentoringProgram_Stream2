@@ -1,4 +1,4 @@
-package Kateryna;
+package homework2.Kateryna;
 
 import java.awt.*;
 
