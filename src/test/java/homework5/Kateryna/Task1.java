@@ -13,21 +13,17 @@ public class Task1 {
         List<String> words = new ArrayList<>(Arrays.asList(wordsArr));
 
         Predicate<String> letterSmallO = (str) -> str.startsWith("o");
-
         List<String> startsWithSmallO = words
                 .stream()
                 .filter(letterSmallO)
                 .collect(Collectors.toList());
-
         System.out.println(startsWithSmallO);
 
         Predicate<String> letterBigO = (str) -> str.startsWith("O");
-
         List<String> startsWithBigO = words
                 .stream()
                 .filter(letterBigO)
                 .collect(Collectors.toList());
-
         System.out.println(startsWithBigO);
     }
 }

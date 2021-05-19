@@ -13,6 +13,7 @@ public class Task4 {
             printFormatted("Hello", exclaim);
             printFormatted("Hello", ask);
         }
+
         public void printFormatted(String str, StringFunction format) {
             String result = format.run(str);
             System.out.print(result);

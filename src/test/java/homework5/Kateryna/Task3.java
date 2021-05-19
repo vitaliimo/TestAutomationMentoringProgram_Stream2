@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Task3 {
+
     public static Map<String, String> main(String[] args) {
         Map<String, String> getSubtotals;
         {
